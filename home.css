@@ -13,12 +13,16 @@ html body {
 }
 
 nav {
+    margin-top: -50px;
+    z-index: 1;
+    position: fixed;
     width: 100vw;
     display: flex;
     height: 50px;
     border-bottom: solid 2px #fae8a0;
     justify-content: flex-start;
     line-height: 50px;
+    background-color: white;
 }
 
 nav img {
@@ -30,19 +34,26 @@ nav img:hover {
 }
 
 nav a {
+    font-family: Alata, sans-serif;
+    font-style: normal;
+    font-weight: normal;
     margin: 0 20px;
     font-size: 1.3rem;
     text-decoration: none;
     color: #2aa1a5;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    font-size: 1.4rem;
+}
+
+.sec1 {
+    margin-top: 50px;
 }
 
 .sec1 img {
     width: 100vw;
-}
-
-#base {
-    visibility: hidden;
-    z-index: -1;
 }
 
 #bgt, #bgm, #bgb {
@@ -74,6 +85,9 @@ nav a {
 .teks h1, .teks h3, .teks p {
     margin-bottom: 0;
     color: #ffffff;
+    font-family: Alata, sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .teks h1 {
@@ -89,17 +103,20 @@ nav a {
     border: 1px solid #2AA1A5;
     box-sizing: border-box;
     border-radius: 5px;
-    font-family: Alata;
+    font-family: Alata, sans-serif;
     font-style: normal;
     font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #2AA1A5;
+    transition: 0.3s;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: #2AA1A5;
+    color: white;
 }
 
 .logo {
@@ -200,17 +217,23 @@ button:hover {
 }
 
 .webdev .sym, .datsi .sym, .webdes .sym {
-    width: 10vw;
+    width: 9vw;
     position: absolute;
     left: 50%;
     margin-left: 0.75vw;
+    transition: 0.3s;
 }
 
 .gamedev .sym, .cp .sym {
-    width: 10vw;
+    width: 9vw;
     position: absolute;
     left: 50%;
     margin-left: -10.75vw;
+    transition: 0.3s;
+}
+
+.materi .sym:hover {
+    width: 9.5vw;
 }
 
 .webdev .box, .datsi .box, .webdes .box {
@@ -296,6 +319,11 @@ button:hover {
 .sosmed div {
     background-color: white;
     border-radius: 0.25vw;
+    transition: 0.3s;
+}
+
+.sosmed div:hover {
+    background-color: #158385;
 }
 
 .isikaki .teks {

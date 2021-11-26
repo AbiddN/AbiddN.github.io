@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  font-family: 'Alata', sans-serif;
+}
+
+nav {
+  margin-top: -90px;
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  height: 50px;
+  border-bottom: solid 2px #fae8a0;
+  justify-content: flex-start;
+  line-height: 50px;
+  background-color: white;
+}
+
+nav img {
+  margin: 5px 20px 10px 20px;
+}
+
+nav img:hover {
+  cursor: pointer;
+}
+
+nav a {
+  font-family: Alata, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 20px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #2aa1a5;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  font-size: 1.4rem;
+}
+
+.container{
+  display: flexbox;
+  flex-direction:column;
+  padding:1px;
+  margin: 90px 40px 40px 40px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #2A8FA5 -10.7%, rgba(54, 201, 157, 0.88) 100%);
+  border-radius: 25px;
+}
+
+.logo{
+  display: flex;
+  margin : 100px auto;
+  height: 200px;  
+}
+
+h1{
+  font-size: 48px;
+  display: flex;
+  letter-spacing: 0.035em;
+  margin : 30px 140px;
+}
+
+p{
+  text-align: justify;
+  font-size: 24px;
+  letter-spacing: 0.035em;
+}
+
+.desc{
+  margin : 10px 140px;
+}
+
+.team{
+  margin: 200px 0px 50px 0px;
+  display: block;
+  text-align: center;
+}
+
+div2{
+  margin: 30px 150px 120px;
+  display: flex;
+}
+
+img{
+  display: inline-block;
+}
+
+div3{
+  float: left;
+  display: block;
+  margin : 115px 110px 0;
+}
+
+
+h3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  display: flex;
+  letter-spacing: 0.035em;
+}

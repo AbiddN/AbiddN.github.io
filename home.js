@@ -29,4 +29,24 @@ window.addEventListener('resize', function () {
     stars.style.height = (4*rect.height) + 'px';
 })
 
-// set top margin for each sym
+let gamedev = document.getElementsByClassName('sym');
+
+gamedev[0].addEventListener('click', function () {
+    window.location.href = "webdev/webdev.html";
+})
+
+gamedev[1].addEventListener('click', function () {
+    window.location.href = "gamedev/gamedev.html";
+})
+
+gamedev[2].addEventListener('click', function () {
+    window.location.href = "datsi/datsi.html";
+})
+
+gamedev[3].addEventListener('click', function () {
+    window.location.href = "cp/cp.html";
+})
+
+gamedev[4].addEventListener('click', function () {
+    window.location.href = "webdes/webdes.html";
+})
