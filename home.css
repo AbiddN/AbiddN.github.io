@@ -207,6 +207,7 @@ button:hover {
     left: 50%;
     margin-left: -3vw;
     position: absolute;
+    transition: 0.3s;
 }
 
 .gamedev .rect, .cp .rect {
@@ -214,6 +215,7 @@ button:hover {
     left: 50%;
     margin-left: -14.5vw;
     position: absolute;
+    transition: 0.3s;
 }
 
 .webdev .sym, .datsi .sym, .webdes .sym {

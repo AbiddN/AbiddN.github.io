@@ -29,24 +29,40 @@ window.addEventListener('resize', function () {
     stars.style.height = (4*rect.height) + 'px';
 })
 
-let gamedev = document.getElementsByClassName('sym');
+let symbol = document.getElementsByClassName('sym');
+let rectangle = document.getElementsByClassName('rect');
 
-gamedev[0].addEventListener('click', function () {
+symbol[0].addEventListener('click', function () {
     window.location.href = "webdev/webdev.html";
 })
 
-gamedev[1].addEventListener('click', function () {
+symbol[1].addEventListener('click', function () {
     window.location.href = "gamedev/gamedev.html";
 })
 
-gamedev[2].addEventListener('click', function () {
+symbol[2].addEventListener('click', function () {
     window.location.href = "datsi/datsi.html";
 })
 
-gamedev[3].addEventListener('click', function () {
+symbol[3].addEventListener('click', function () {
     window.location.href = "cp/cp.html";
 })
 
-gamedev[4].addEventListener('click', function () {
+symbol[4].addEventListener('click', function () {
     window.location.href = "webdes/webdes.html";
+})
+
+for (let i = 0; i < symbol.length; i++) {
+    symbol[i].addEventListener('mouseover', function () {
+        rectangle[i].style.transform = 'rotate(45deg)';
+    })
+    symbol[i].addEventListener('mouseout', function () {
+        rectangle[i].style.transform = 'rotate(0deg)';
+    })
+}
+
+let button = document.querySelector('button');
+
+button.addEventListener('click', function () {
+    window.location.href = "about/about.html";
 })

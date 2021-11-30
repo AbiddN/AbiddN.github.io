@@ -3,8 +3,13 @@
   font-family: 'Alata', sans-serif;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 nav {
-  margin-top: -90px;
+  margin-top: 0;
   z-index: 1;
   position: fixed;
   width: 100vw;
@@ -40,10 +45,11 @@ nav a:hover {
 }
 
 .container{
-  display: flexbox;
+  margin-top: 90px;
+  display: flex;
   flex-direction:column;
   padding:1px;
-  margin: 90px 40px 40px 40px;
+  width: 90vw;
   color: #ffffff;
   background: linear-gradient(180deg, #2A8FA5 -10.7%, rgba(54, 201, 157, 0.88) 100%);
   border-radius: 25px;
