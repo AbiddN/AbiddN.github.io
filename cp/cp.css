@@ -1,3 +1,9 @@
+*{
+    font-family: Alata, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
 html body {
     margin: 0;
     padding: 0;
@@ -118,6 +124,13 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mid .container div:hover {
+    cursor: pointer;
+    width: 6.2vw;
+    height: 6.2vw;
+    background: linear-gradient(180deg, #93dac7 0%, #9ee0ce 100%);
 }
 
 .mid .container div p {
