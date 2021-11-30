@@ -245,7 +245,7 @@ button:hover {
 }
 
 .webdev .box, .datsi .box, .webdes .box {
-    margin-top: 3.75vw;
+    margin-top: 3vw;
     height: 10vw;
     position: absolute;
     width: 40%;
@@ -259,7 +259,7 @@ button:hover {
 }
 
 .gamedev .box, .cp .box {
-    margin-top: 3.75vw;
+    margin-top: 3vw;
     height: 10vw;
     position: absolute;
     width: 40%;
@@ -289,13 +289,14 @@ button:hover {
 }
 
 .materi h2 {
+    margin-top: 0;
     color: #158385;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
 }
 
 .materi p {
     color: #158385;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-top: -1vw;
 }
 
