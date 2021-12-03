@@ -6,7 +6,7 @@
 
 html body {
     margin: 0;
-    padding: 0;
+    padding: 10vh 0 0 0;
 }
 
 @-webkit-keyframes rotasi {
@@ -24,6 +24,8 @@ body {
 }
 
 nav {
+    margin-top: -10vh;
+    position: fixed;
     background-color: white;
     width: 100vw;
     display: flex;
@@ -31,6 +33,7 @@ nav {
     border-bottom: solid 2px #fae8a0;
     justify-content: flex-start;
     line-height: 50px;
+    z-index: 1;
 }
 
 nav img {
@@ -52,7 +55,6 @@ nav a {
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
 }
 
 .atas .container {
