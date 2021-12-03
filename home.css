@@ -204,10 +204,6 @@ button:hover {
     /* border: solid 2px black; */
 }
 
-.stars {
-    /* border: solid 2px blue; */
-}
-
 .webdev .rect, .datsi .rect, .webdes .rect {
     width: 17.5vw;
     left: 50%;
@@ -268,6 +264,7 @@ button:hover {
     right: 50%;
     margin-right: 5.75vw;
     padding-left: 1vw;
+    padding-right: 7vw;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -336,14 +333,20 @@ button:hover {
 }
 
 .isikaki .teks {
-    margin-top: 5vw;
+    margin: 0;
     display: flex;
     width: 50vw;
     justify-content: center;
 }
 
 .isikaki .teks p {
+    margin: 3vw 0 0 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
     font-size: 2vw;
+    font-size: 0.8rem;
 }
