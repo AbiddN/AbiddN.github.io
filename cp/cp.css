@@ -6,7 +6,7 @@
 
 html body {
     margin: 0;
-    padding: 0;
+    padding: 10vh 0 0 0;
 }
 
 @-webkit-keyframes rotasi {
@@ -24,12 +24,15 @@ body {
 }
 
 nav {
+    margin-top: -10vh;
+    position: fixed;
     background-color: white;
     width: 100vw;
     display: flex;
     height: 50px;
     justify-content: flex-start;
     line-height: 50px;
+    z-index: 1;
 }
 
 nav img {
@@ -45,13 +48,66 @@ nav a {
     font-size: 1.3rem;
     text-decoration: none;
     color: #2aa1a5;
+    transition: 0.3s;
+}
+
+nav a:hover, .down .btn:hover {
+    font-size: 1.4rem;
+}
+
+.down {
+    float: left;
+    overflow: hidden;
+}
+
+.down .btn {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    color: #2aa1a5;
+    margin: 0 20px;
+    background-color: inherit;
+    font-family: inherit;
+    transition: 0.3s;
+}
+  
+.down:hover {
+    background-color: white;
+}
+  
+.downisi {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+  
+.downisi a {
+    float: none;
+    color: #2aa1a5;
+    padding: 0 2vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 1rem;
+}
+  
+.downisi a:hover {
+    background-color: #2aa1a5;
+    color: white;
+    font-size: 1rem;
+}
+  
+.down:hover .downisi {
+    display: block;
 }
 
 .atas {
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
 }
 
 .atas .container {
@@ -123,6 +179,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 }
 
 .mid .container div:hover {

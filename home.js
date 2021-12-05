@@ -61,7 +61,7 @@ for (let i = 0; i < symbol.length; i++) {
     })
 }
 
-let button = document.querySelector('button');
+let button = document.querySelectorAll('button')[1];
 
 button.addEventListener('click', function () {
     window.location.href = "about/about.html";

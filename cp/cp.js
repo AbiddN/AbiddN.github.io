@@ -12,18 +12,18 @@ k1.addEventListener("click", function() {
   target.src = "materi/mat1.pdf";
 });
 
-k2.addEventListener("click", function() {
-  target.src = "materi/mat2.pdf";
-});
+// k2.addEventListener("click", function() {
+//   target.src = "materi/mat2.pdf";
+// });
 
-k3.addEventListener("click", function() {
-  target.src = "materi/mat3.pdf";
-});
+// k3.addEventListener("click", function() {
+//   target.src = "materi/mat3.pdf";
+// });
 
-k4.addEventListener("click", function() { 
-  target.src = "materi/mat4.pdf";
-});
+// k4.addEventListener("click", function() { 
+//   target.src = "materi/mat4.pdf";
+// });
 
-k5.addEventListener("click", function() {
-  target.src = "materi/mat5.pdf";
-});
+// k5.addEventListener("click", function() {
+//   target.src = "materi/mat5.pdf";
+// });
